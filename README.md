@@ -2,7 +2,7 @@
 
 # Getting started
 ```
-git clone https://github.com/mzbac/job-description-generation.git
+https://github.com/mzbac/human-to-machine-date-translation.git
 ```
 # cloud setting
 - select Deep Learning AMI (Ubuntu) Version 4.0 - ami-b40f8bcc
