@@ -1,5 +1,3 @@
-# Example of seq2seq translation with attention mechanism in pytorch
-
 # Getting started
 ```
 git clone https://github.com/mzbac/human-to-machine-date-translation.git
