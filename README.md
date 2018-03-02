@@ -7,6 +7,7 @@ git clone https://github.com/mzbac/human-to-machine-date-translation.git
 # docker env
 ```bash
 #!/bin/bash
+cd host
 docker build -t human-machine .
 docker run -p 8080:8080 human-machine
 ```
