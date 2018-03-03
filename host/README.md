@@ -21,6 +21,6 @@ apt-get -y install docker-ce
 # build docker image and run
 ```bash 
 #!/bin/bash
-sudp docker build -t human-machine .
+sudo docker build -t human-machine .
 sudo docker run -p 8080:8080 human-machine
 ```
