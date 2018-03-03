@@ -33,7 +33,7 @@ def load_model():
 
 def predict(dateStr):
     encoder, decoder = load_model()
-    return ''.join(evaluate(dateStr,encoder,decoder,human_char2index, machine_index2char))
+    return ''.join(evaluate(dateStr.lower(),encoder,decoder,human_char2index, machine_index2char))
 
 if __name__ == '__main__':
       app.run(host='0.0.0.0', port=8080)
