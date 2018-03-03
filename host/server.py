@@ -22,7 +22,7 @@ def index():
     prediction = predict(request.args['date'])
     data = {}
     data['data'] = prediction
-    return json.dumps(data)
+    return json.dumps(data),200,{'Access-Control-Allow-Origin':'*'}
 
 def load_model():
     encoder = EncoderRNN(human_n_chars, hidden_size, n_layers)
