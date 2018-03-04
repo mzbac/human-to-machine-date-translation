@@ -2,6 +2,8 @@
 ```
 git clone https://github.com/mzbac/human-to-machine-date-translation.git
 ```
+# [live demo](https://qx2wv8xp1.firebaseapp.com/)
+
 # docker env
 ```bash
 #!/bin/bash
